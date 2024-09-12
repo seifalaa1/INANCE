@@ -1,0 +1,568 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* ====================================================== */
+
+/* Start-> Some Links  */
+
+.some-Links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+
+}
+
+.some-Links i {
+    color: rgb(255, 138, 29);
+    font-size: 1.3em;
+    padding: 0 2px;
+}
+
+.email,
+.call {
+    display: flex;
+    margin: 20px;
+}
+
+.email a,
+.call a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 200;
+}
+
+/* end -> Some Links */
+
+/* ============================================================== */
+
+/* Start-> Nav bar  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(209, 227, 255);
+    width: 100%;
+}
+
+.logo {
+    margin: 20px;
+    color: rgb(3, 85, 204);
+    font-size: 1.7em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 30px;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: rgb(3, 85, 204);
+}
+
+.home {
+    color: rgb(3, 85, 204);
+}
+
+/* end -> Nav Bar */
+
+/* ===================================================== */
+
+/* start -> Main  Content  */
+
+.conteiner {
+    width: 100%;
+    background-color: rgb(209, 227, 255);
+    margin-bottom: 50px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+}
+
+.text {
+    width: 40%;
+    margin-top: -5em;
+
+}
+
+.text h1 {
+    color: rgb(3, 85, 204);
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.text p {
+    font-size: 12px;
+}
+
+.img {
+    margin-left: 100px;
+    width: 40%;
+}
+
+.img img {
+    width: 106%;
+}
+
+.btn {
+    color: white;
+    background: rgb(255, 138, 29);
+    width: 180px;
+    height: 40px;
+    font-size: 17px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background: transparent;
+    border: 1px solid rgb(255, 138, 29);
+    color: rgb(255, 138, 29);
+}
+
+/* End -> Main Content  */
+
+/* ====================================================== */
+
+/* Start -> Contact  */
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.map {
+    width: 50%;
+}
+
+.form {
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+
+}
+
+form button {
+    margin: 20px;
+    padding: 10px;
+    background: rgb(3, 85, 204);
+    width: 120px;
+    height: 40px;
+    border: 0;
+    color: white;
+}
+
+.form input {
+    border: 0;
+    box-shadow: 2px 3px 15px rgba(104, 103, 103, 0.596);
+    display: block;
+    width: 500px;
+    height: 50px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.form .message {
+    height: 130px;
+}
+
+/* End -> Contact  */
+
+/* ====================================================== */
+
+/* Start -> Info Cards */
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin-top: -12.4em;
+    margin-left: 4.5em;
+}
+
+.first-cards,
+.mid {
+    background-color: white;
+    color: black;
+    fill: #726dae;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 67em;
+    height: 15em;
+    margin: 2em;
+    box-shadow: 2px 2px 5px rgba(104, 103, 103, 0.596);
+    text-transform: uppercase;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+
+.mid {
+    background: rgb(255, 138, 29);
+    color: white;
+}
+
+.first-cards img {
+    width: 7em;
+    margin: 20px;
+}
+
+.first-cards:hover {
+    background: rgb(255, 138, 29);
+    color: white;
+}
+
+/* End -> Info Cards  */
+
+/* ============================================================ */
+
+/* Start -> About Section  */
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 10em auto;
+
+}
+
+.text2 {
+    width: 40%;
+    margin: 0 10px;
+}
+
+.text2 h3 {
+    font-weight: 600;
+    font-size: 2.5em;
+    text-transform: uppercase;
+
+}
+
+.text2 p {
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+.btn2 {
+    margin-top: 2.4em;
+    background: rgb(3, 85, 204);
+    color: white;
+    width: 15em;
+    height: 3.5em;
+    font-size: 1.123em;
+    font-weight: 500;
+    border: none;
+}
+
+.btn2:hover {
+    background: transparent;
+    color: rgb(3, 85, 204);
+    border: 1px rgb(3, 85, 204) solid;
+}
+
+.img2 {
+    width: 55%;
+}
+
+/* End -> About Section  */
+
+/* =========================================================== */
+
+/* Start Services Section  */
+
+.header,
+.header1 {
+    text-align: center;
+    margin: 3em 0;
+    font-size: 2.3em;
+}
+
+.serv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.cards {
+    width: 35em;
+    margin: 5em 2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20em;
+    box-shadow: 2px 2px 5px rgba(104, 103, 103, 0.596);
+    transition: 0.4s;
+}
+
+.cards:hover {
+    background: rgb(255, 138, 29);
+    color: white;
+}
+
+.img3 {
+    width: 70%;
+    margin: 2em;
+}
+
+.img3 img {
+    width: 6em;
+}
+
+.text3 h3 {
+    font-weight: 700;
+}
+
+.text3 p {
+    font-size: 1.3em;
+}
+
+.serv-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    background: rgb(3, 85, 204);
+    color: white;
+    font-size: 1.3em;
+    width: 220px;
+    height: 50px;
+    border: 0;
+}
+
+.serv-btn:hover {
+    background: transparent;
+    color: rgb(3, 85, 204);
+    border: 1px solid rgb(3, 85, 204);
+}
+
+/* End -> Services Section   */
+
+/* ============================================================ */
+
+/* Strat -> Clients Reviews  */
+
+.client {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+}
+
+.info-card {
+    display: flex;
+    width: 48%;
+    height: 250px;
+    box-shadow: 2px 2px 5px rgba(104, 103, 103, 0.596);
+    flex-wrap: wrap;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.info-card:hover {
+    transform: scale(1.1);
+}
+
+.per-img {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.per-img img {
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.infoo {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infoo h3 {
+    font-weight: 300;
+}
+
+.icons {
+    color: rgb(243, 199, 4);
+}
+
+.arrow {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 40%;
+    margin: 2.5em auto;
+}
+
+.arrow i {
+    margin: 10px;
+    background: rgb(3, 85, 204);
+    color: white;
+    width: 3em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.arrow i:hover {
+    background-color: rgb(255, 138, 29);
+}
+
+/* End -> Clients Reviews  */
+
+/* ============================================================= */
+
+/* Start -> Footer Section */
+
+.footer {
+    background: rgb(10, 15, 67);
+    height: 90vh;
+    width: 100%;
+}
+
+.header1 {
+    margin: 20px 0;
+    padding: 50px;
+    color: white;
+}
+
+.f-hr {
+    width: 42%;
+    margin-top: -50px;
+}
+
+.pp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 0.9em;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.f-icon i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    width: 4em;
+    height: 4em;
+    background: rgb(3, 85, 204);
+    border-radius: 50%;
+}
+
+.f-icon i:hover {
+    background-color: rgb(255, 138, 29);
+}
+
+.social-icons {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 12%;
+    font-size: 1.2em;
+}
+
+.social-icons i {
+    color: rgb(3, 85, 204);
+    margin: 5px;
+}
+
+.social-icons i:hover {
+    color: rgb(243, 199, 4);
+}
+
+.social-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 1.5em;
+}
+
+.s-hr {
+    width: 70%;
+    margin-top: 60px;
+}
+
+.copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: 20px auto;
+    color: white;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+/* End -> Footer Section  */
